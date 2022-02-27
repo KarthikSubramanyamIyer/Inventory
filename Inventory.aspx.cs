@@ -19,7 +19,7 @@ namespace Inventory
             }
         }
 
-        SqlConnection connection = new SqlConnection("data source=DESKTOP-5ARN2QG\\SQLEXPRESS01; Database = CodeInventory; Trusted_Connection=True; MultipleActiveResultSets=true");
+        SqlConnection connection = new SqlConnection("data source=; Database = CodeInventory; Trusted_Connection=True; MultipleActiveResultSets=true");
         protected void Button1_Click(object sender, EventArgs e)
         {
             
